@@ -1,10 +1,27 @@
 import React from "react";
+import {
+  Header,
+  HeroSection,
+  AboutUs,
+  Services,
+  Work,
+  Blogs,
+  NewsLetter,
+  Footer,
+} from "../components/index";
 
 function Home() {
   return (
-    <div>
-      <h1>Vite React</h1>
-    </div>
+    <>
+      <Header />
+      <HeroSection />
+      <AboutUs />
+      <Services />
+      <Work />
+      <Blogs />
+      <NewsLetter />
+      <Footer />
+    </>
   );
 }
 
