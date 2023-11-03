@@ -12,7 +12,7 @@ import {
 
 function Home() {
   return (
-    <>
+    <div className="font-poppins bg-[#13324e] min-h-screen">
       <Header />
       <HeroSection />
       <AboutUs />
@@ -21,7 +21,7 @@ function Home() {
       <Blogs />
       <NewsLetter />
       <Footer />
-    </>
+    </div>
   );
 }
 
