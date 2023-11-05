@@ -28,8 +28,8 @@ function Header() {
         <div className="flex items-center justify-between py-4">
           <Logo />
           <ul
-            className={`md:flex gap-6 text-sm md:bg-transparent md:w-auto md:static md:px-0 absolute top-[100%] w-44 bg-white px-1 rounded-sm ${
-              open ? "right-[2%] duration-500" : "right-[-100%]"
+            className={`md:flex gap-6 text-sm md:bg-transparent md:w-auto md:static md:px-0 absolute top-[100%] w-44 bg-white px-1 rounded-sm duration-500 ${
+              open ? "right-[4%]" : "right-[-100%]"
             }`}
           >
             {navItems.map((item) => (
