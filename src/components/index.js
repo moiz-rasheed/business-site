@@ -10,6 +10,7 @@ import Blogs from "./Blogs/Blogs";
 import NewsLetter from "./NewsLetterSection/NewsLetter";
 import Footer from "./Footer/Footer";
 import Container from "./Container";
+import Button from "./Button";
 
 export {
   Header,
@@ -24,4 +25,5 @@ export {
   NewsLetter,
   Footer,
   Container,
+  Button,
 };
