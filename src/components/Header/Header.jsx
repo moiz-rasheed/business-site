@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Logo, Container, Button } from "../index";
 
 function Header() {
   const [open, setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const navItems = [
     {
@@ -22,8 +23,27 @@ function Header() {
     },
   ];
 
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="fixed w-full top-0 right-0 z-[1000] bg-transparent">
+    <header
+      className={`fixed w-full top-0 right-0 z-[1000] bg-transparent ${
+        isScrolled ? "backdrop-blur duration-200" : ""
+      }`}
+    >
       <Container>
         <div className="flex items-center justify-between py-4">
           <Logo />
