@@ -20,7 +20,7 @@ function HeroSection() {
           <p className="max-w-4xl text-5xl md:text-6xl lg:text-7xl font-medium leading-tight">
             Empowering startups and freelancers
           </p>
-          <div className="bg-[#1291ee] hover:bg-[#0f83d7] inline-block p-4 rounded-full mt-2 md:mt-4 cursor-pointer">
+          <div className="bg-[#1291ee] hover:bg-[#0f83d7] duration-200 inline-block p-4 rounded-full mt-2 md:mt-4 cursor-pointer">
             <div className="px-2 pt-2 text-2xl">
               <ion-icon name="play-sharp"></ion-icon>
             </div>
