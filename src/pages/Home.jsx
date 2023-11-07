@@ -12,7 +12,7 @@ import {
 
 function Home() {
   return (
-    <div className="font-poppins bg-[#13324e] min-h-screen">
+    <div className="font-poppins min-h-screen">
       <Header />
       <HeroSection />
       <AboutUs />
