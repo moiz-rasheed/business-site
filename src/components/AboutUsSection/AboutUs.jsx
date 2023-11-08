@@ -9,7 +9,7 @@ function AboutUs() {
       icon: "laptop-outline",
       title: "Work with us",
       description:
-        "Let us know how we can help! Get in touch and we'll give you a fresh perspective on your business.",
+        "Let us know how we can help! Get in touch, and we'll give you a fresh and valuable perspective on your business.",
     },
     {
       icon: "lock-closed-outline",
@@ -62,7 +62,7 @@ function AboutUs() {
       <div className="py-14 lg:py-20 bg-[#f9faff]">
         <Container>
           <div className="flex flex-col items-center">
-            <p className="text-2xl font-medium text-center text-blue-950 max-w-xl px-4 sm:px-0">
+            <p className="text-2xl font-medium text-center leading-normal text-blue-950 max-w-xl px-4 sm:px-0">
               We match your unique business needs with our deep understanding of
               freelancer behaviour
             </p>
