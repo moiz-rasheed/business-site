@@ -11,6 +11,7 @@ import NewsLetter from "./NewsLetterSection/NewsLetter";
 import Footer from "./Footer/Footer";
 import Container from "./Container";
 import Button from "./Button";
+import ButtonOutline from "./ButtonOutline";
 
 export {
   Header,
@@ -26,4 +27,5 @@ export {
   Footer,
   Container,
   Button,
+  ButtonOutline,
 };
