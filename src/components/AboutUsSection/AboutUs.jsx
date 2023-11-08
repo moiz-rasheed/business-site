@@ -4,6 +4,26 @@ import Image1 from "../../assets/Image1.jpg";
 import Image2 from "../../assets/Image2.jpg";
 
 function AboutUs() {
+  const cardData = [
+    {
+      icon: "laptop-outline",
+      title: "Work with us",
+      description:
+        "Let us know how we can help! Get in touch and we'll give you a fresh perspective on your business.",
+    },
+    {
+      icon: "lock-closed-outline",
+      title: "Our process",
+      description:
+        "After a collaborative assessment we'll explore your business problems and needs co-creatively.",
+    },
+    {
+      icon: "help-buoy-outline",
+      title: "How we help",
+      description:
+        "We provide business development, marketing, planning, operations and financial services.",
+    },
+  ];
   return (
     <div>
       <Container>
@@ -39,7 +59,27 @@ function AboutUs() {
           </div>
         </div>
       </Container>
-      <AboutUsCard />
+      <div className="py-14 lg:py-20 bg-[#f9faff]">
+        <Container>
+          <div className="flex flex-col items-center">
+            <p className="text-2xl font-medium text-center text-blue-950 max-w-xl px-4 sm:px-0">
+              We match your unique business needs with our deep understanding of
+              freelancer behaviour
+            </p>
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {cardData.map((c) => (
+                <div key={c.title}>
+                  <AboutUsCard
+                    icon={c.icon}
+                    title={c.title}
+                    description={c.description}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </div>
     </div>
   );
 }
