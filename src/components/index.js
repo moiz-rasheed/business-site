@@ -6,6 +6,7 @@ import AboutUsCard from "./AboutUsSection/AboutUsCard";
 import Services from "./ServicesSection/Services";
 import Work from "./WorkSection/Work";
 import WorkCard from "./WorkSection/WorkCard";
+import TestimonialCard from "./WorkSection/TestimonialCard";
 import Blogs from "./Blogs/Blogs";
 import NewsLetter from "./NewsLetterSection/NewsLetter";
 import Footer from "./Footer/Footer";
@@ -22,6 +23,7 @@ export {
   Services,
   Work,
   WorkCard,
+  TestimonialCard,
   Blogs,
   NewsLetter,
   Footer,
