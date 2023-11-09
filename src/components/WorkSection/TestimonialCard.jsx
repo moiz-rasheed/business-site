@@ -2,7 +2,7 @@ import React from "react";
 
 function TestimonialCard({ photo, name, about, review }) {
   return (
-    <div className="bg-white hover:bg-gray-800 group duration-200 max-w-xl rounded-lg border hover:border-gray-800 p-6 flex flex-col items-center">
+    <div className="bg-white hover:bg-gray-800 group duration-200 max-w-xl rounded-lg border hover:border-gray-800 p-6 flex flex-col items-center cursor-pointer">
       <div className="flex items-center w-full my-4">
         <div className="h-16 w-16 overflow-hidden rounded-full">
           <img

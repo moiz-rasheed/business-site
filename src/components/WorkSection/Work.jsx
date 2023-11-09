@@ -1,5 +1,11 @@
 import React from "react";
-import { ButtonOutline, Container, WorkCard, TestimonialCard } from "../index";
+import {
+  ButtonOutline,
+  Container,
+  WorkCard,
+  TestimonialCard,
+  Button,
+} from "../index";
 
 function Work() {
   const WorkCardData = [
@@ -88,7 +94,50 @@ function Work() {
               </div>
             ))}
           </div>
+          <div className="max-w-xs md:max-w-2xl mx-auto mt-14 lg:mt-20 text-6xl text-gray-300 grid grid-cols-3 md:grid-cols-6 gap-8">
+            <div className="flex justify-center">
+              <ion-icon name="logo-google"></ion-icon>
+            </div>
+            <div className="flex justify-center">
+              <ion-icon name="logo-dropbox"></ion-icon>
+            </div>
+            <div className="flex justify-center">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </div>
+            <div className="flex justify-center">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </div>
+            <div className="flex justify-center">
+              <ion-icon name="logo-apple"></ion-icon>
+            </div>
+            <div className="flex justify-center">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </div>
+          </div>
         </Container>
+      </div>
+      <div className="relative">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/4065144/pexels-photo-4065144.jpeg?cs=srgb&dl=pexels-cottonbro-studio-4065144.jpg&fm=jpg&w=1280&h=720"
+            alt="Image"
+            className="object-cover object-center w-full h-full"
+          />
+        </div>
+        <div className="relative z-10 bg-gray-800 bg-opacity-80">
+          <Container>
+            <div className="flex items-center justify-between flex-col lg:flex-row py-14 lg:py-20">
+              <div className="text-white max-w-md mb-8 lg:mb-0 text-center lg:text-start">
+                <p className="text-2xl font-medium">Let's work together</p>
+                <p className="text-sm font-light mt-4">
+                  We work with ecosystem leaders, corporations and startups
+                  worldwide. How can we help you?
+                </p>
+              </div>
+              <Button />
+            </div>
+          </Container>
+        </div>
       </div>
     </div>
   );

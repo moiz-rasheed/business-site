@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkCard({ URL, title }) {
   return (
-    <div className="aspect-[5/4] max-w-xs relative group">
+    <div className="aspect-[5/4] max-w-xs relative group cursor-pointer">
       <img
         src={URL}
         alt="Image"
