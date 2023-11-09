@@ -5,6 +5,7 @@ import {
   AboutUs,
   Services,
   Work,
+  Innovations,
   Blogs,
   NewsLetter,
   Footer,
@@ -18,6 +19,7 @@ function Home() {
       <AboutUs />
       <Services />
       <Work />
+      <Innovations />
       <Blogs />
       <NewsLetter />
       <Footer />

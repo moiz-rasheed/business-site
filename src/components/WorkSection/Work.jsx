@@ -54,6 +54,27 @@ function Work() {
     },
   ];
 
+  const partnerBrandsLogos = [
+    {
+      logo: "logo-google",
+    },
+    {
+      logo: "logo-dropbox",
+    },
+    {
+      logo: "logo-pinterest",
+    },
+    {
+      logo: "logo-buffer",
+    },
+    {
+      logo: "logo-apple",
+    },
+    {
+      logo: "logo-dribbble",
+    },
+  ];
+
   return (
     <div>
       <div className="py-14 lg:py-20 flex flex-col items-center bg-[#f9faff]">
@@ -94,25 +115,12 @@ function Work() {
               </div>
             ))}
           </div>
-          <div className="max-w-xs md:max-w-2xl mx-auto mt-14 lg:mt-20 text-6xl text-gray-300 grid grid-cols-3 md:grid-cols-6 gap-8">
-            <div className="flex justify-center">
-              <ion-icon name="logo-google"></ion-icon>
-            </div>
-            <div className="flex justify-center">
-              <ion-icon name="logo-dropbox"></ion-icon>
-            </div>
-            <div className="flex justify-center">
-              <ion-icon name="logo-pinterest"></ion-icon>
-            </div>
-            <div className="flex justify-center">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </div>
-            <div className="flex justify-center">
-              <ion-icon name="logo-apple"></ion-icon>
-            </div>
-            <div className="flex justify-center">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </div>
+          <div className="max-w-xs md:max-w-2xl mx-auto mt-14 lg:mt-20 text-5xl text-gray-300 grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-2">
+            {partnerBrandsLogos.map((p) => (
+              <div key={p.logo} className="flex justify-center">
+                <ion-icon name={p.logo}></ion-icon>
+              </div>
+            ))}
           </div>
         </Container>
       </div>
@@ -134,7 +142,7 @@ function Work() {
                   worldwide. How can we help you?
                 </p>
               </div>
-              <Button />
+              <Button name="Get a Quote" />
             </div>
           </Container>
         </div>
