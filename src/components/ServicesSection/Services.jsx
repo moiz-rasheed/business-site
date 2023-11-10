@@ -1,7 +1,5 @@
 import React from "react";
 import { Button, Container } from "../index";
-import Image3 from "../../assets/Image3.jpg";
-import Image4 from "../../assets/Image4.jpg";
 
 function Services() {
   return (
@@ -28,12 +26,12 @@ function Services() {
           </div>
           <div className="relative flex items-end justify-end mx-10 sm:mx-24 md:mx-0">
             <img
-              src={Image3}
+              src="https://images.pexels.com/photos/4458419/pexels-photo-4458419.jpeg?cs=srgb&dl=pexels-yan-krukau-4458419.jpg&fm=jpg&w=640&h=960"
               alt="Image"
               className="h-[75%] aspect-[1/1] object-cover absolute top-0 left-0 rounded"
             />
             <img
-              src={Image4}
+              src="https://unsplash.com/photos/J1rNS2qv8BQ/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fGV4ZWN1dGl2ZSUyMG9mZmljZXxlbnwwfHx8fDE2OTk2MzI4NjJ8MA&force=true&w=640"
               alt="Image"
               className="h-[80%] aspect-[4/3] object-cover rounded"
             />

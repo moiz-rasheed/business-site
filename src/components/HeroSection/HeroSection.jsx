@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "../index";
-import HS_Image from "../../assets/HS_Image.jpg";
 
 function HeroSection() {
   return (
@@ -10,7 +9,7 @@ function HeroSection() {
     >
       <div className="h-screen absolute inset-0">
         <img
-          src={HS_Image}
+          src="https://unsplash.com/photos/dcL8ESbsGis/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjk5NjU0NjA4fA&force=true&w=1920"
           alt="Landing Page Image"
           className="w-full h-full object-cover object-center brightness-50"
         />

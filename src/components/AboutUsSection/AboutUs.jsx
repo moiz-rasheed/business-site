@@ -1,7 +1,5 @@
 import React from "react";
 import { AboutUsCard, Button, Container } from "../index";
-import Image1 from "../../assets/Image1.jpg";
-import Image2 from "../../assets/Image2.jpg";
 
 function AboutUs() {
   const cardData = [
@@ -30,12 +28,12 @@ function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-14 lg:py-20">
           <div className="relative mx-10 sm:mx-24 md:mx-0">
             <img
-              src={Image1}
+              src="https://images.pexels.com/photos/6140676/pexels-photo-6140676.jpeg?cs=srgb&dl=pexels-william-fortunato-6140676.jpg&fm=jpg&w=1280&h=853"
               alt="Image"
               className="h-[80%] aspect-[4/3] object-cover rounded"
             />
             <img
-              src={Image2}
+              src="https://images.pexels.com/photos/7605201/pexels-photo-7605201.jpeg?cs=srgb&dl=pexels-mart-production-7605201.jpg&fm=jpg&w=640&h=427"
               alt="Image"
               className="h-[75%] aspect-[1/1] object-cover absolute bottom-0 right-0 rounded"
             />
