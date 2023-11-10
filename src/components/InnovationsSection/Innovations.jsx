@@ -23,9 +23,9 @@ function Innovations() {
             </div>
             <div className="mx-auto md:mx-0">
               <ul className="mt-1 mb-3 text-start list-disc list-inside text-gray-500 text-xs leading-loose mx-6 md:mx-0">
-                <li>Create and manage any process for your business needs.</li>
-                <li>Track your reports with our StartFlow audit trail.</li>
-                <li>Full functionality without needed to install software.</li>
+                <li>Create any process for any business needs.</li>
+                <li>Track reports with our StartFlow audit trail.</li>
+                <li>Full functionality without installing software.</li>
               </ul>
             </div>
             <div>
