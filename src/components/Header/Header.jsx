@@ -41,11 +41,11 @@ function Header() {
   return (
     <header
       className={`fixed w-full top-0 right-0 z-[1000] bg-transparent ${
-        isScrolled ? "bg-white shadow duration-200" : ""
+        isScrolled ? "bg-white drop-shadow duration-200" : ""
       }`}
     >
       <Container>
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-2">
           <Logo textColor={`${isScrolled ? "text-black" : "text-white"}`} />
           <ul
             className={`md:flex gap-6 text-sm md:bg-transparent md:w-auto md:px-0 absolute md:static drop-shadow-lg md:drop-shadow-none top-[100%] w-44 bg-white px-1 rounded-sm duration-500 ${
