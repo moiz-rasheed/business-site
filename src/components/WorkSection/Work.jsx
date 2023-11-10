@@ -115,7 +115,7 @@ function Work() {
               </div>
             ))}
           </div>
-          <div className="max-w-xs md:max-w-2xl mx-auto mt-14 lg:mt-20 text-5xl text-gray-300 grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-2">
+          <div className="max-w-xs md:max-w-2xl mx-auto mt-14 lg:mt-20 text-5xl text-gray-200 grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-2">
             {partnerBrandsLogos.map((p) => (
               <div key={p.logo} className="flex justify-center">
                 <ion-icon name={p.logo}></ion-icon>
