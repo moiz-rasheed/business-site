@@ -19,7 +19,7 @@ function Header() {
       name: "Work",
     },
     {
-      name: "Blog",
+      name: "Innovation",
     },
   ];
 

@@ -6,7 +6,6 @@ import {
   Services,
   Work,
   Innovations,
-  Blogs,
   NewsLetter,
   Footer,
 } from "../components/index";
@@ -20,7 +19,6 @@ function Home() {
       <Services />
       <Work />
       <Innovations />
-      <Blogs />
       <NewsLetter />
       <Footer />
     </div>
