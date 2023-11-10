@@ -4,7 +4,10 @@ import HS_Image from "../../assets/HS_Image.jpg";
 
 function HeroSection() {
   return (
-    <div className="h-screen w-full flex items-center justify-center relative">
+    <div
+      id="hero"
+      className="h-screen w-full flex items-center justify-center relative"
+    >
       <div className="h-screen absolute inset-0">
         <img
           src={HS_Image}

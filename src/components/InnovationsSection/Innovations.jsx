@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 function Innovations() {
   return (
-    <div className="py-14 lg:py-20">
+    <div id="innovation" className="py-14 lg:py-20">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/*text on left side starts here*/}

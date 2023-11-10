@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Logo, Container, Button } from "../index";
+import { Link } from "react-scroll";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -8,18 +9,28 @@ function Header() {
   const navItems = [
     {
       name: "Home",
+      target: "hero",
+      offset: 0,
     },
     {
       name: "About Us",
+      target: "about",
+      offset: -50,
     },
     {
       name: "Services",
+      target: "services",
+      offset: -50,
     },
     {
       name: "Work",
+      target: "work",
+      offset: -50,
     },
     {
       name: "Innovation",
+      target: "innovation",
+      offset: -50,
     },
   ];
 
@@ -57,13 +68,19 @@ function Header() {
                 key={item.name}
                 className="md:bg-transparent md:hover:bg-transparent hover:bg-[#1291ee] rounded-sm md:my-0 my-1 md:p-0 p-2 md:text-white text-black hover:text-white"
               >
-                <p
+                <Link
+                  to={item.target}
+                  spy={true}
+                  smooth={true}
+                  offset={item.offset}
+                  duration={500}
+                  onClick={() => setOpen(!open)}
                   className={`md:font-extralight font-light md:hover:underline underline-offset-4 block cursor-pointer ${
                     isScrolled ? "md:text-black md:font-normal" : ""
                   }`}
                 >
                   {item.name}
-                </p>
+                </Link>
               </li>
             ))}
           </ul>

@@ -25,7 +25,7 @@ function AboutUs() {
     },
   ];
   return (
-    <div>
+    <div id="about">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-14 lg:py-20">
           <div className="relative mx-10 sm:mx-24 md:mx-0">

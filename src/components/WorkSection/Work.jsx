@@ -76,7 +76,7 @@ function Work() {
   ];
 
   return (
-    <div>
+    <div id="work">
       <div className="py-14 lg:py-20 flex flex-col items-center bg-[#f9faff]">
         <Container>
           <div className="flex flex-col items-center">

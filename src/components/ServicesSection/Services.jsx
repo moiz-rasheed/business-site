@@ -5,7 +5,7 @@ import Image4 from "../../assets/Image4.jpg";
 
 function Services() {
   return (
-    <div>
+    <div id="services">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-14 lg:py-20">
           <div className="flex flex-col justify-center gap-4 text-center md:text-start">
