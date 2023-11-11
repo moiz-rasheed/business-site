@@ -7,7 +7,7 @@ function Innovations() {
     <div id="innovation" className="py-14 lg:py-20">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          {/*text on left side starts here*/}
+          {/*Text on left side starts here*/}
           <div className="flex flex-col justify-center gap-4 text-center md:text-start mb-4 md:mb-0">
             <p className="text-primary">Innovation</p>
             <div>
@@ -36,9 +36,9 @@ function Innovations() {
               />
             </div>
           </div>
-          {/*text on left side ends here*/}
+          {/*Text on left side ends here*/}
 
-          {/*circular shapes start here*/}
+          {/*Circular shapes start here*/}
           <div className="max-w-sm min-w-[21rem] sm:min-w-[24rem] aspect-square justify-self-center md:justify-self-end">
             <div className="bg-[#e7f4fd] aspect-square h-full w-full rounded-full relative flex justify-center items-center">
               <div className="bg-[#a7d6f8] aspect-square h-[65%] w-[65%] rounded-full relative flex justify-center items-center">
@@ -77,10 +77,10 @@ function Innovations() {
               </div>
             </div>
           </div>
-          {/*circular shapes end here*/}
+          {/*Circular shapes end here*/}
         </div>
 
-        {/*growth data starts here*/}
+        {/*Growth data starts here*/}
         <div className="flex flex-col sm:flex-row justify-center mt-14 lg:mt-20">
           <div className="flex flex-col items-center">
             <div className="text-3xl text-primary">
@@ -116,6 +116,7 @@ function Innovations() {
             </p>
           </div>
         </div>
+        {/*Growth data ends here*/}
       </Container>
     </div>
   );

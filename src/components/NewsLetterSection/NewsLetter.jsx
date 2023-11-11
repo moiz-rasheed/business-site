@@ -5,6 +5,7 @@ function NewsLetter() {
   return (
     <div className="relative">
       <div className="absolute inset-0 z-0">
+        {/* Background image here */}
         <img
           src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?cs=srgb&dl=pexels-fauxels-3184360.jpg&fm=jpg&w=1280&h=853"
           alt="Image"
@@ -14,6 +15,7 @@ function NewsLetter() {
       <div className="relative z-10 bg-gray-800 bg-opacity-50">
         <Container>
           <div className="flex justify-center lg:justify-start py-14 lg:py-20">
+            {/* Newsletter card starts */}
             <div className="bg-white max-w-lg rounded-lg flex flex-col items-center px-8 py-10 sm:py-14">
               <p className="text-2xl font-medium text-blue-950 text-center mb-4">
                 Sign up to our newsletter
@@ -34,6 +36,7 @@ function NewsLetter() {
                 </button>
               </form>
             </div>
+            {/* Newsletter card ends */}
           </div>
         </Container>
       </div>

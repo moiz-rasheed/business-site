@@ -6,6 +6,7 @@ function Header() {
   const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
+  //Nav items data starts
   const navItems = [
     {
       name: "Home",
@@ -33,7 +34,9 @@ function Header() {
       offset: -50,
     },
   ];
+  //Nav items data ends
 
+  //Function to handle header background becomes white when start scrolling
   const handleScroll = () => {
     if (window.scrollY > 0) {
       setIsScrolled(true);
@@ -42,6 +45,7 @@ function Header() {
     }
   };
 
+  //useEffect for handleScroll
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -57,7 +61,11 @@ function Header() {
     >
       <Container>
         <div className="flex items-center justify-between py-2">
+          {/* Logo starts */}
           <Logo textColor={`${isScrolled ? "text-black" : "text-white"}`} />
+          {/* Logo ends */}
+
+          {/* Nav items start */}
           <ul
             className={`md:flex gap-6 text-sm md:bg-transparent md:w-auto md:px-0 absolute md:static drop-shadow-lg md:drop-shadow-none top-[100%] w-44 bg-white px-1 rounded-sm duration-500 ${
               open ? "right-4" : "right-[-100%]"
@@ -84,8 +92,11 @@ function Header() {
               </li>
             ))}
           </ul>
+          {/* Nav items end */}
+
           <div className="flex items-end">
-            <Button />
+            <Button /> {/* Get started button */}
+            {/* Button to toggle menu on mobile starts */}
             <div
               onClick={() => setOpen(!open)}
               className={`text-3xl  ml-2 cursor-pointer z-[10001] md:hidden ${
@@ -94,6 +105,7 @@ function Header() {
             >
               <ion-icon name={open ? "close-sharp" : "menu-sharp"}></ion-icon>
             </div>
+            {/* Button to toggle menu on mobile ends */}
           </div>
         </div>
       </Container>

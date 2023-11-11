@@ -25,11 +25,14 @@ function Services() {
             </div>
           </div>
           <div className="relative flex items-end justify-end mx-10 sm:mx-24 md:mx-0">
+            {/* Left image below */}
             <img
               src="https://images.pexels.com/photos/4458419/pexels-photo-4458419.jpeg?cs=srgb&dl=pexels-yan-krukau-4458419.jpg&fm=jpg&w=640&h=960"
               alt="Image"
               className="h-[75%] aspect-[1/1] object-cover absolute top-0 left-0 rounded"
             />
+
+            {/* Right image below */}
             <img
               src="https://unsplash.com/photos/J1rNS2qv8BQ/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fGV4ZWN1dGl2ZSUyMG9mZmljZXxlbnwwfHx8fDE2OTk2MzI4NjJ8MA&force=true&w=640"
               alt="Image"

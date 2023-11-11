@@ -8,6 +8,7 @@ import {
 } from "../index";
 
 function Work() {
+  // Work cards data starts
   const WorkCardData = [
     {
       URL: "https://images.pexels.com/photos/11953866/pexels-photo-11953866.jpeg?cs=srgb&dl=pexels-dlxmediahu-11953866.jpg&fm=jpg&w=640&h=427",
@@ -34,7 +35,9 @@ function Work() {
       title: "Management",
     },
   ];
+  // Work card data ends
 
+  // Testimonials card data starts
   const testimonialCardData = [
     {
       photo:
@@ -53,7 +56,9 @@ function Work() {
         "StartFlow was a great opportunity to interact with other entrepreneurs and with seasoned professionals who could provide guidance for growing our company.",
     },
   ];
+  // Testimonials card data ends
 
+  // Logo icon names of partners start
   const partnerBrandsLogos = [
     {
       logo: "logo-google",
@@ -74,20 +79,28 @@ function Work() {
       logo: "logo-dribbble",
     },
   ];
+  // Logo icon names of partners ends
 
   return (
     <div id="work">
       <div className="py-14 lg:py-20 flex flex-col items-center bg-[#f9faff]">
         <Container>
           <div className="flex flex-col items-center">
+            {/* Tagline starts */}
             <p className="text-2xl font-medium text-center text-blue-950 max-w-xl px-4 sm:px-0">
               Our work — digital marketing case studies
             </p>
+            {/* Tagline ends */}
+
+            {/* Description stats */}
             <p className="text-gray-500 text-xs leading-loose text-center max-w-lg pt-3 px-4 sm:px-0 mb-14">
               We work with forward-looking organizations who understand that
               joining the global startup economy is key to drive innovation and
               spur economic growth.
             </p>
+            {/* Description ends */}
+
+            {/* Work/Projects cards start */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {WorkCardData.map((w) => (
                 <div key={w.title}>
@@ -95,14 +108,17 @@ function Work() {
                 </div>
               ))}
             </div>
+            {/* Work/Projects cards end */}
+
             <div className="mt-14">
-              <ButtonOutline />
+              <ButtonOutline /> {/* View All Work button */}
             </div>
           </div>
         </Container>
       </div>
       <div className="py-14 lg:py-20">
         <Container>
+          {/* Testimonials cards start */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {testimonialCardData.map((t) => (
               <div key={t.name} className="flex justify-center">
@@ -115,6 +131,9 @@ function Work() {
               </div>
             ))}
           </div>
+          {/* Testimonials cards end */}
+
+          {/* Partner companies' logos start */}
           <div className="max-w-xs md:max-w-2xl mx-auto mt-14 lg:mt-20 text-5xl text-gray-200 grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-2">
             {partnerBrandsLogos.map((p) => (
               <div key={p.logo} className="flex justify-center">
@@ -122,10 +141,14 @@ function Work() {
               </div>
             ))}
           </div>
+          {/* Partner companies' logos end */}
         </Container>
       </div>
+
+      {/* Let's work together, starts */}
       <div className="relative">
         <div className="absolute inset-0 z-0">
+          {/* Background image of "Let's work together" section */}
           <img
             src="https://images.pexels.com/photos/4065144/pexels-photo-4065144.jpeg?cs=srgb&dl=pexels-cottonbro-studio-4065144.jpg&fm=jpg&w=1280&h=720"
             alt="Image"
@@ -142,11 +165,12 @@ function Work() {
                   worldwide. How can we help you?
                 </p>
               </div>
-              <Button name="Get a Quote" />
+              <Button name="Get a Quote" /> {/* Get a Quote button */}
             </div>
           </Container>
         </div>
       </div>
+      {/* Let's work together, ends */}
     </div>
   );
 }

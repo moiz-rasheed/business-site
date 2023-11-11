@@ -2,6 +2,7 @@ import React from "react";
 import { AboutUsCard, Button, Container } from "../index";
 
 function AboutUs() {
+  //Card data starts
   const cardData = [
     {
       icon: "laptop-outline",
@@ -22,16 +23,22 @@ function AboutUs() {
         "We provide business development, marketing, planning, operations and financial services.",
     },
   ];
+  //Card data ends
+
   return (
     <div id="about">
+      {/* Entrepreneur solutions starts*/}
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-14 lg:py-20">
           <div className="relative mx-10 sm:mx-24 md:mx-0">
+            {/* Left image here*/}
             <img
               src="https://images.pexels.com/photos/6140676/pexels-photo-6140676.jpeg?cs=srgb&dl=pexels-william-fortunato-6140676.jpg&fm=jpg&w=1280&h=853"
               alt="Image"
               className="h-[80%] aspect-[4/3] object-cover rounded"
             />
+
+            {/* Right image here */}
             <img
               src="https://images.pexels.com/photos/7605201/pexels-photo-7605201.jpeg?cs=srgb&dl=pexels-mart-production-7605201.jpg&fm=jpg&w=640&h=427"
               alt="Image"
@@ -57,6 +64,9 @@ function AboutUs() {
           </div>
         </div>
       </Container>
+      {/* Entrepreneur solutions ends */}
+
+      {/* About us cards usage starts */}
       <div className="py-14 lg:py-20 bg-[#f9faff]">
         <Container>
           <div className="flex flex-col items-center">
@@ -78,6 +88,7 @@ function AboutUs() {
           </div>
         </Container>
       </div>
+      {/* About us cards usage ends */}
     </div>
   );
 }
