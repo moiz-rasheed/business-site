@@ -1,6 +1,5 @@
 import Header from "./Header/Header";
-import Logo from "./Logo/Logo";
-import LogoSVG from "./Logo/LogoSVG";
+import Logo from "./Logo";
 import HeroSection from "./HeroSection/HeroSection";
 import AboutUs from "./AboutUsSection/AboutUs";
 import AboutUsCard from "./AboutUsSection/AboutUsCard";
@@ -18,7 +17,6 @@ import ButtonOutline from "./ButtonOutline";
 export {
   Header,
   Logo,
-  LogoSVG,
   HeroSection,
   AboutUs,
   AboutUsCard,
