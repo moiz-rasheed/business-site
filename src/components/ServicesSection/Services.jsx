@@ -7,7 +7,7 @@ function Services() {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-14 lg:py-20">
           <div className="flex flex-col justify-center gap-4 text-center md:text-start">
-            <p className="text-[#1291ee]">Explore Our Services</p>
+            <p className="text-primary">Explore Our Services</p>
             <div>
               <h4 className="text-2xl font-medium leading-normal mb-2 mx-6 md:mx-0 text-blue-950">
                 We offer a wide range of crucial business and strategic

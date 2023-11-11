@@ -2,8 +2,8 @@ import React from "react";
 
 function Button({
   name = "Get Started",
-  bgColor = "bg-[#1291ee]",
-  bgColorHover = "hover:bg-[#0f83d7]",
+  bgColor = "bg-primary",
+  bgColorHover = "hover:bg-primaryDark",
 }) {
   return (
     <button

@@ -9,7 +9,7 @@ function Innovations() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/*text on left side starts here*/}
           <div className="flex flex-col justify-center gap-4 text-center md:text-start mb-4 md:mb-0">
-            <p className="text-[#1291ee]">Innovation</p>
+            <p className="text-primary">Innovation</p>
             <div>
               <h4 className="text-2xl font-medium leading-normal mb-2 mx-6 md:mx-0 text-blue-950">
                 Enhancing startup success
@@ -83,7 +83,7 @@ function Innovations() {
         {/*growth data starts here*/}
         <div className="flex flex-col sm:flex-row justify-center mt-14 lg:mt-20">
           <div className="flex flex-col items-center">
-            <div className="text-3xl text-[#1291ee]">
+            <div className="text-3xl text-primary">
               <ion-icon name="cube-outline"></ion-icon>
             </div>
             <p className="text-blue-950 font-medium text-5xl mt-2 mb-1">
@@ -94,7 +94,7 @@ function Innovations() {
             </p>
           </div>
           <div className="flex flex-col items-center my-8 sm:my-0 sm:mx-28">
-            <div className="text-3xl text-[#1291ee]">
+            <div className="text-3xl text-primary">
               <ion-icon name="chatbox-outline"></ion-icon>
             </div>
             <p className="text-blue-950 font-medium text-5xl mt-2 mb-1">
@@ -105,7 +105,7 @@ function Innovations() {
             </p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="text-3xl text-[#1291ee]">
+            <div className="text-3xl text-primary">
               <ion-icon name="analytics-outline"></ion-icon>
             </div>
             <p className="text-blue-950 font-medium text-5xl mt-2 mb-1">

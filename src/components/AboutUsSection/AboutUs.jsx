@@ -39,7 +39,7 @@ function AboutUs() {
             />
           </div>
           <div className="flex flex-col justify-center gap-4 text-center md:text-start">
-            <p className="text-[#1291ee]">About Us</p>
+            <p className="text-primary">About Us</p>
             <div>
               <h4 className="text-2xl font-medium mb-2 text-blue-950">
                 Entrepreneur solutions

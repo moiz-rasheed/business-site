@@ -66,7 +66,7 @@ function Header() {
             {navItems.map((item) => (
               <li
                 key={item.name}
-                className="md:bg-transparent md:hover:bg-transparent hover:bg-[#1291ee] rounded-sm md:my-0 my-1 md:p-0 p-2 md:text-white text-black hover:text-white"
+                className="md:bg-transparent md:hover:bg-transparent hover:bg-primary rounded-sm md:my-0 my-1 md:p-0 p-2 md:text-white text-black hover:text-white"
               >
                 <Link
                   to={item.target}
